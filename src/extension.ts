@@ -2,8 +2,8 @@ import * as vscode from 'vscode';
 
 export function activate(context: vscode.ExtensionContext) {
 	let disposable = vscode.commands.registerTextEditorCommand('ri.doc', (textEditor: vscode.TextEditor, edit: vscode.TextEditorEdit) => {
-		const config = vscode.workspace.getConfiguration('RailsIndex');
-		let riPath = String(config.get('ri'));
+		const config = vscode.workspace.getConfiguration('ri');
+		let riPath = String(config.get('path'));
 		if (riPath === "undefined") {
 			riPath = "ri";
 		}
