@@ -1,0 +1,73 @@
+{
+	"name": "railsindex",
+	"displayName": "RailsIndex",
+	"description": "Adds right-click menu to 'ri' in rb and erb files",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.37.0"
+	},
+	"categories": [
+		"Programming Languages",
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:ri.doc"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "ri.doc",
+				"title": "RailsIndex documentation"
+			}
+		],
+		"languages": [
+			{
+				"id": "rb",
+				"extensions": [
+					".rb",
+					".erb"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"menus": {
+			"editor/context": [
+				{
+					"when": "editorLangId == 'rb'",
+					"command": "ri.doc",
+					"group": "navigation@1"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "RailsIndex",
+			"properties": {
+				"ri.path": {
+					"type": "string",
+					"default": "ri",
+					"description": "Path to the 'ri' utility.  Leave as default if 'ri' is already on your PATH."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^5.2.6",
+		"@types/node": "^10.12.21",
+		"@types/vscode": "^1.37.0",
+		"glob": "^7.1.4",
+		"mocha": "^6.1.4",
+		"typescript": "^3.3.1",
+		"tslint": "^5.12.1",
+		"vscode-test": "^1.0.2"
+	}
+}
