@@ -2,8 +2,6 @@
 
 All notable changes to the "railsindex" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
 
-- Initial release
+- Initial release.  This is probably as far as it's going.
