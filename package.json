@@ -3,6 +3,7 @@
 	"displayName": "RailsIndex",
 	"description": "Adds right-click menu to 'ri' in rb and erb files",
 	"version": "0.0.1",
+	"publisher": "brianmcfadden",
 	"engines": {
 		"vscode": "^1.37.0"
 	},
