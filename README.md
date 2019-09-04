@@ -26,10 +26,14 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
-It is released.
+### 0.2.0
 
-### 1.0.0
+* Handle the cases where we're looking for ? or ! at the end of the command.
+* Don't automatically close the window on error, we want to see what ri suggests.
+* Spiffy new icon.
 
-Initial release of 1
+### 0.1.0
+
+* Initial release of 0
 
 **Share and Enjoy!**
