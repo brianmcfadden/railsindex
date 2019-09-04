@@ -26,6 +26,10 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
+### 0.2.1
+
+* Change the README to add this message.
+
 ### 0.2.0
 
 * Handle the cases where we're looking for ? or ! at the end of the command.
