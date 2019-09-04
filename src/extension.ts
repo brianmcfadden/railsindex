@@ -13,6 +13,10 @@ export function activate(context: vscode.ExtensionContext) {
 		if (range) {
 			let input = textEditor.document.lineAt(range.start.line).text;
 			let arg = input.slice(range.start.character, range.end.character).trim();
+			let oneMore = input.slice(range.end.character, range.end.character + 1);
+			if (oneMore === "?" || oneMore === "!") {
+				arg = input.slice(range.start.character, range.end.character+1).trim();
+			}
 
 			vscode.window.createTerminal({
 				name: "RI",
