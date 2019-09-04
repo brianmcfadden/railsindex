@@ -18,12 +18,15 @@ export function activate(context: vscode.ExtensionContext) {
 				arg = input.slice(range.start.character, range.end.character+1).trim();
 			}
 
-			vscode.window.createTerminal({
+			/* there doesn't seem to be a way to get the error code from onDidCloseTerminal,
+			   so we'll hack up something via bash */
+			let terminal = vscode.window.createTerminal({
 				name: "RI",
-				shellPath: riPath,
-				shellArgs: [arg],
+				shellPath: "bash",
+				shellArgs: ["-c", riPath + " " + arg + "|| read -n 1"],
 				hideFromUser: false
-			}).show();
+			});
+			terminal.show();
 		}
 	});
 
