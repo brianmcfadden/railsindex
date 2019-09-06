@@ -26,6 +26,10 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
+### 0.2.3
+
+* Remove lies, fabrications, and untruths.
+
 ### 0.2.2
 
 * More of the same.
