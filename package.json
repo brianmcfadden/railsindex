@@ -33,8 +33,7 @@
 				"extensions": [
 					".rb",
 					".erb"
-				],
-				"configuration": "./language-configuration.json"
+				]
 			}
 		],
 		"menus": {
