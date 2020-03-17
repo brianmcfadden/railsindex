@@ -26,6 +26,12 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
+### 0.2.4
+
+* Dependency minimist 	Version < 1.2.2 	Upgrade to ~> 1.2.2
+* Defined in package-lock.json
+* CVE-2020-7598 Moderate severity
+
 ### 0.2.3
 
 * Remove lies, fabrications, and untruths.
