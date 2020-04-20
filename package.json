@@ -3,7 +3,7 @@
 	"displayName": "RailsIndex",
 	"description": "Adds right-click menu to 'ri' in rb and erb files",
 	"icon": "images/icon.png",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"publisher": "brianmcfadden",
 	"repository": {
 		"type": "git",

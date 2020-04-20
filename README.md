@@ -26,6 +26,11 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
+### 0.2.5
+
+* Dependency minimist 	Version < 1.2.3 	Upgrade to ~> 1.2.3
+* Dependency https-proxy-agent	Upgrade to ~> 2.2.3
+
 ### 0.2.4
 
 * Dependency minimist 	Version < 1.2.2 	Upgrade to ~> 1.2.2
