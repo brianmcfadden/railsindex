@@ -3,7 +3,7 @@
 	"displayName": "RailsIndex",
 	"description": "Adds right-click menu to 'ri' in rb and erb files",
 	"icon": "images/icon.png",
-	"version": "0.2.7",
+	"version": "0.2.8",
 	"publisher": "brianmcfadden",
 	"repository": {
 		"type": "git",
@@ -65,14 +65,14 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/glob": "^7.1.1",
+		"@types/glob": "^7.1.3",
 		"@types/mocha": "^5.2.6",
-		"@types/node": "^10.12.21",
+		"@types/node": "^10.17.45",
 		"@types/vscode": "^1.37.0",
-		"glob": "^7.1.4",
-		"mocha": "^6.1.4",
-		"typescript": "^3.3.1",
-		"tslint": "^5.12.1",
-		"vscode-test": "^1.0.2"
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"tslint": "^5.20.1",
+		"typescript": "^3.9.7",
+		"vscode-test": "^1.4.1"
 	}
 }

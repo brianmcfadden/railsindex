@@ -26,6 +26,10 @@ Calling out known issues can help limit users opening duplicate issues against y
 
 ## Release Notes
 
+### 0.2.8
+
+* Generic NPM update drive-by blammo blammo
+
 ### 0.2.7
 
 * Correct version numbers !@#$%^&
