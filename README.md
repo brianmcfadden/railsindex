@@ -4,7 +4,7 @@ RailsIndex is a VS Code extension for Ruby and Ruby on Rails files with the exte
 
 ## Features
 
-RailsIndex will add a context menu that brings up a terminal which runs 'ri' on the text under the cursor.  That's _all_ it does.
+RailsIndex will add a context menu that brings up a terminal which runs 'ri' on the text under the cursor.  That's _all_ it does.  Really.  Not joking.
 
 > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
@@ -25,6 +25,10 @@ This extension contributes the following settings:
 Calling out known issues can help limit users opening duplicate issues against your extension.
 
 ## Release Notes
+
+### 0.2.9
+
+* dependabot y18n securifail update
 
 ### 0.2.8
 
